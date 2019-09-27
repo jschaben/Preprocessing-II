@@ -1,19 +1,14 @@
 // Mixins in here
-.flex (@justify, @align, @flex-direction, @font-size) {
-    display: flex;
-    justify-content: @justify;
-    align-items: @align;
-    flex-direction: @flex-direction;
-    font-size: @font-size;
-
-
+.button(@color, @color2){
+  display:flex;
+  justify-content: center;
+  padding: 10px 0px;
+  background-color: @color;
+  color: @color2;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  text-decoration: none;
 }
 
-.btn-style(@padding, @border-radius, @background-color, @color, @cursor) {
-    padding: @padding;
-    border-radius: @border-radius;
-    background-color: @background-color;
-    color: @color;
-    cursor: @cursor;
-
-}

@@ -1,15 +1,38 @@
 // Navigation Styles here
-.mainNav {
-    .flex(space-between, flex-start, row, 16px);
-    margin: @margin;
-    width: 50%;
-}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    border-bottom: 2px dashed @navigation-border;
+    @media @mobile{
+        flex-flow: column;
+        align-content: center;
+        padding-bottom: 5px;
+    }
+    h1{
+        margin-left: 18%;
+        @media @mobile{
+            margin-left: 0%;
+            margin-bottom: 20px;
+            font-size: 3rem;
+        }
+    }
+    nav{
+        display:flex;
+        width: 26%;
+        justify-content: space-around;
+        margin-right: 20%;
+        @media @mobile{
+            width: 90%;
+            margin-right: 0%;
+        }
+        a{
+            text-decoration: none;
+            color: @font-color;
+            font-size: 2rem;
+            font-weight: 350;
+        }
+    }
 
-.funBus {
-    .flex(flex-start, center, row, 4rem);
-    margin: @margin;
-}
-
-.fun-bus-img {
-    margin: @margin;
 }
