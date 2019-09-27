@@ -221,6 +221,15 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
+.footer .btn {
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  width: 65%;
+}
 .mainHeader {
   display: flex;
   flex-flow: column;
@@ -321,16 +330,4 @@ img {
     width: 80%;
     margin-left: 10%;
   }
-}
-.home .content-pick .destination .btn {
-  display: flex;
-  justify-content: center;
-  padding: 10px 0px;
-  background-color: #17A2B8;
-  color: #FFFFFF;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 16px;
-  width: 100%;
-  text-decoration: none;
 }
