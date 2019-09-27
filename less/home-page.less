@@ -46,6 +46,11 @@
   .inverse-content {
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
+    
+    @media @mobile{
+      flex-direction: column-reverse;
+    }
+    
 
     .text-content {
       padding-left: 1%;
