@@ -1,1 +1,40 @@
 // Navigation Styles here
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    font-size: 16px;
+    margin: 20px;
+    width:50%;
+
+    @media @mobile{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.funBus{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    font-size: 4rem;
+    margin:20px;
+}
+
+.fun-bus-info{
+    margin: 20px;
+
+    @media @mobile{
+        display: flex;
+        margin-bottom: 0px 4%;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5%;
+    }
+}
